@@ -4,7 +4,7 @@
 const About = () => {
     return (
         <div className="py-5">
-            <h1>This is About Us</h1>
+            <h1>About English Club BD</h1>
             <div className="d-flex container">
                 <div className="w-50" >
                     <img className="img-fluid p-5" src="https://learningenglish365.com/new/wp-content/uploads/2020/09/learning-english-header.png" alt="" />

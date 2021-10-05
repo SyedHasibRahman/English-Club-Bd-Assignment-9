@@ -6,7 +6,7 @@ const Footer = () => {
 
     return (
         <div className="bg-info p-3">
-            <p>© 2021 Learn English. </p>
+            <p>© 2021 English Club BD. </p>
             <p><small>The United Kingdom’s international organisation for cultural relations and educational opportunities.</small></p>
         </div>
     );

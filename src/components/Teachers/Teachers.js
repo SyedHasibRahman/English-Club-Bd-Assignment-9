@@ -25,8 +25,8 @@ const Teachers = () => {
 const Teacher = (props) => {
     const { name, picture, from } = props.teacher;
     return (
-        <div className="col-md-3 col-sm-1 shadow p-3">
-            <div className=" rounded border border-info h-100">
+        <div className="col-md-3 col-sm-1 p-3">
+            <div className=" rounded h-100 galley">
                 <img className="course-img img-fluid teacher-img" src={picture} alt="" />
                 <h3>{name}</h3>
                 <p>From: {from}</p>

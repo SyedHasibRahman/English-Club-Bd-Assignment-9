@@ -1,0 +1,10 @@
+.galley{
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+.galley:hover{ 
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+.galley img{
+    height: 230px;
+    width: 100%;
+}

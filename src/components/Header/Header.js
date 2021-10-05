@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import "./Header.css";
 import logo from '../../images/logo.png'
 
@@ -18,7 +18,7 @@ const Header = () => {
         <div className="bg-info">
             <div className="d-flex justify-content-between container p-3">
                 <div>
-                    <img className="logo" src={logo} alt="Logo" />
+                    <Link to="/"><img className="logo" src={logo} alt="Logo" /></Link>
                 </div>
                 <nav className="">
                     <NavLink activeStyle={activeStyle} className="p-2 menu-item" to="/home">Home</NavLink>
